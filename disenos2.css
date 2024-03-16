@@ -1,0 +1,60 @@
+html{
+    font-size: 10px;
+    background-color: antiquewhite;
+}
+body{
+    margin:0;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(11, 141, 177);
+    margin: 0;
+    padding: 15;
+    font-size: 4rem;
+    font-family: Georgia;
+    text-align: center;
+}
+.container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title3{
+    font-size: 24px;
+    font-family: Georgia;
+}
+.title4, .title5{
+    font-size: 20px;
+    margin-left: 23px;
+    font-family: Georgia;
+}
+.main3 {
+    width: 100%;
+    text-align: center;
+    margin: 10;
+}
+.imagen3 {
+    width: 80%; /* Tamaño de la imagen ajustable */
+    height: auto;
+    margin-bottom: 20px;
+}
+.text3{
+    margin: 10;
+    font-family: Georgia;
+}
+.article4{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.main4, .main5 {
+    flex: 1;
+    max-width: 300px;
+    margin-block: 10px;
+}  
+.link1, .link2, .link3, .link4, .link5, .link6, .link7, .link8, .link9, .link10, .link11, .link12 {
+    text-decoration: none;
+    color: rgb(11, 141, 177);
+    font-family: Georgia;
+}

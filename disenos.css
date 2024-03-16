@@ -1,0 +1,85 @@
+html{
+    font-size: 10px;
+    background-color: antiquewhite;
+}
+body{
+    margin:0;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(166, 177, 11);
+    margin: 0;
+    padding: 15;
+    font-size: 4rem;
+    font-family: Georgia;
+    text-align: center;
+}
+.main1{
+    display: none;
+}
+.article1{
+    margin: 10
+}
+.main2{
+    width:100%;
+}
+.title2{
+    font-family: Georgia;
+    font-size: 2.5rem;
+}
+.section1{
+    width: 100%;
+}
+.subtitle1, .subtitle2, .subtitle3{
+    display: flex;
+    justify-content: center;
+    font-size: 1.8rem;
+    color: rgb(110, 110, 110);
+}
+.imagen1{
+    width: 100%
+}
+.container3{
+    display: flex;
+    flex-direction: row;
+}
+.section2, .section3 {
+    flex: 1;
+}
+.imagen2{
+    width: 97%;
+}
+.text{
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+@media (min-width: 1024px){
+    .container{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .main1{
+        display: flex;
+        flex-direction: column;
+        flex: 0.5;
+        margin: 10;
+    }
+    .title1{
+        font-family: Georgia;
+        font-size: 2.5rem;
+    }
+    .subtitle{
+        font-family: Georgia;
+        font-size: 1.6rem;
+    }
+    ul.subtitle li a{
+        text-decoration: none; 
+        color: black;
+    }
+    .article1{
+        flex: 1.5;
+    }
+}
